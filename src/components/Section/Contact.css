@@ -1,0 +1,476 @@
+
+.bg{
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://www.lung.org/getmedia/f9ffa87b-5594-44c7-a081-9b0398125f1e/contactus_i.jpg?width=700&height=350&ext=.jpg');
+}
+
+.bg h1{
+transform: translate(270px,200px);
+font-size: 70px;
+}
+
+.connect{
+    width: 100%;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.contact{
+    width: 100%;
+    height: 100vh;
+ background-color: rgba(0, 0, 0, );
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact input{
+    padding: 20px 120px;
+    margin: 10px;
+    outline: none;
+}
+
+#inptc{
+    padding: 20px 340px;
+}
+
+#inptc::placeholder{
+transform: translateX(-310px);}
+
+textarea{
+    margin-left: 11px;
+width: 850px;
+font-size: 20px;
+}
+
+.submit{
+    padding: 20px 90px;
+    border-radius: 40px;
+margin-left: 300px;
+margin-top: 10px;
+background-color:#d83e06;
+color: white;
+font-size: 18px;
+border: none;
+}
+
+.solll{
+    width: 80%;
+    margin-left: 50px;
+}
+
+.solll input::placeholder{
+    transform: translateX(-90px);
+    font-size:20px;
+}
+
+
+.saggg{
+    margin-right: 150px;
+}
+
+.saggg i,.saggg span{
+    margin-top: 40px;
+}
+
+.saggg i:hover{
+    color: chocolate;
+}
+
+
+.submit:hover{
+background-color: turquoise;
+}
+
+.ic i{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    font-size: 29px;
+    transform: translate(1050px,-240px);
+}
+
+.ic i:hover{
+    color: chocolate;
+}
+
+
+
+ 
+@media screen and (min-width : 768px) and (max-width : 1024px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .bg{
+        width: 100%;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('https://www.lung.org/getmedia/f9ffa87b-5594-44c7-a081-9b0398125f1e/contactus_i.jpg?width=700&height=350&ext=.jpg');
+    }
+    
+    .bg h1{
+    transform: translate(0,150px);
+    margin-left: 50px;
+    font-size: 55px;
+    }
+    
+    .connect{
+        width: 100%;
+        height: 80vh;
+        background-color: rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    
+    
+    .contact{
+        width: 100%;
+        height: 80vh;
+     background-color: rgba(0, 0, 0, );
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        font-family: "montserrat-light", sans-serif;
+        font-size: 1.5rem;
+        line-height: 2;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    .contact input{
+        padding: 10px;
+        margin: 10px;
+       transform: translateX(30px);
+    }
+    
+    #inptc{
+        padding: 10px 120px;
+    }
+    
+    #inptc::placeholder{
+    transform: translateX(-100px);}
+   
+    
+    textarea{
+        transform: translateX(30px);
+        width: 410px;
+    }
+    
+    .submit{
+        padding: 15px 50px;
+        border-radius: 40px;
+    margin-left: 300px;
+    transform: translateX(-130px);
+    margin-top: 10px;
+    background-color:#d83e06;
+    color: white;
+    font-size: 16px;
+    border: none;
+    }
+    
+    .solll{
+        width: 80%;
+        margin-left: 50px;
+        height: 70vh;
+    }
+    
+    .solll input::placeholder{
+        transform: translateX(10px)
+    }
+    
+    
+    .saggg{
+        margin-right: 100px;
+        height: 70vh;
+    }
+    
+    .saggg i,.saggg span{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    
+    .saggg i:hover{
+        color: chocolate;
+    }
+    
+    
+    .submit:hover{
+    background-color: turquoise;
+    }
+    
+    .ic i{
+        color: black;
+        text-align: center;
+        margin: 8px;
+        font-size: 26px;
+        transform: translate(480px,-200px);
+    }
+    
+    .ic i:hover{
+        color: chocolate;
+    }
+
+    }
+
+
+
+     
+@media (max-width:767px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .bg{
+        width: 100%;
+        height: 45vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url('https://www.lung.org/getmedia/f9ffa87b-5594-44c7-a081-9b0398125f1e/contactus_i.jpg?width=700&height=350&ext=.jpg');
+    }
+    
+    .bg h1{
+    transform: translate(-30px,100px);
+    margin-left: 50px;
+    font-size: 34px;
+    }
+    
+    .connect{
+        width: 100%;
+        height: 200vh;
+        background-color: rgba(0, 0, 0, 0.2);
+       
+    }
+    
+    
+    
+    .contact{
+        width: 100%;
+        height: 200vh;
+     background-color: rgba(0, 0, 0, );
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        font-family: "montserrat-light", sans-serif;
+        font-size: 1.5rem;
+        line-height: 2;
+        display: block;
+      
+    
+    }
+    
+    .contact input{
+        padding: 8px;
+        margin: 10px;
+       transform: translateX(0px);
+    }
+    
+    #inptc{
+        padding: 8px 11px;
+        
+    }
+    
+    #inptc::placeholder{
+    transform: translateX(-2px);}
+   
+    
+    textarea{
+        transform: translateX(0px);
+        width: 200px;
+     font-size: 16px;
+       
+    }
+    
+    .submit{
+        padding: 13px 40px;
+        border-radius: 40px;
+    margin-left: 300px;
+    transform: translateX(-250px);
+    margin-top: 10px;
+    background-color:#d83e06;
+    color: white;
+    font-size: 15px;
+    border: none;
+    }
+    
+    .solll{
+        width: 80%;
+        margin-left: 50px;
+    }
+    
+    .solll input::placeholder{
+        transform: translateX(10px);
+       font-size: 16px;
+    }
+    
+    
+    .saggg{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    }
+    
+    .saggg i,.saggg span{
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    
+    .saggg i:hover{
+        color: chocolate;
+    }
+    
+    
+    .submit:hover{
+    background-color: turquoise;
+    }
+    
+    .ic i{
+        color: black;
+        text-align: center;
+        margin: 5px;
+        font-size: 26px;
+        transform: translate(70px,-60px);
+    }
+    
+    .ic i:hover{
+        color: chocolate;
+    }
+
+    }
+
+
+/*      
+    @media (max-width:320px){
+        body{
+            overflow-x: hidden;
+        }
+    
+        .bg{
+            width: 100%;
+            height: 35vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('https://www.lung.org/getmedia/f9ffa87b-5594-44c7-a081-9b0398125f1e/contactus_i.jpg?width=700&height=350&ext=.jpg');
+        }
+        
+        .bg h1{
+        transform: translate(0,120px);
+        margin-left: 50px;
+        font-size: 34px;
+        }
+        
+        .connect{
+            width: 100%;
+            height: 150vh;
+            background-color: rgba(0, 0, 0, 0.2);
+           
+        }
+        
+        
+        
+        .contact{
+            width: 100%;
+            height: 150vh;
+         background-color: rgba(0, 0, 0, );
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            font-family: "montserrat-light", sans-serif;
+            font-size: 1.5rem;
+            line-height: 2;
+            display: block;
+          
+        
+        }
+        
+        .contact input{
+            padding: 7px;
+            margin: 10px;
+           transform: translateX(10px);
+        }
+        
+        #inptc{
+            padding: 8px 50px;
+            
+        }
+        
+        #inptc::placeholder{
+        transform: translateX(-30px);}
+       
+        
+        textarea{
+            transform: translateX(10px);
+            width: 270px;
+         
+           
+        }
+        
+        .submit{
+            padding: 12px 30px;
+            border-radius: 40px;
+        margin-left: 300px;
+        transform: translateX(-180px);
+        margin-top: 10px;
+        background-color:#d83e06;
+        color: white;
+        font-size: 13px;
+        border: none;
+        }
+        
+        .solll{
+            width: 98%;
+            margin-left: 0px;
+        }
+        
+        .solll input::placeholder{
+            transform: translateX(15px)
+        }
+        
+        
+        .saggg{
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 50px;
+        }
+        
+        .saggg i,.saggg span{
+            margin-top: 40px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        
+        .saggg i:hover{
+            color: chocolate;
+        }
+        
+        
+        .submit:hover{
+        background-color: turquoise;
+        }
+        
+        .ic i{
+            color: black;
+            text-align: center;
+            margin: 5px;
+            font-size: 26px;
+            transform: translate(70px,-990px);
+        }
+        
+        .ic i:hover{
+            color: chocolate;
+        }
+    
+        }
+     */

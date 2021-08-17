@@ -1,0 +1,11 @@
+/* *{
+    border: 1px solid red;
+} */
+@media (max-width:767px){
+    .menu-test li{
+      display: block;
+    }
+}
+.activemenu{
+    left: 0 !important;
+}

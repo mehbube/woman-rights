@@ -1,0 +1,259 @@
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    color: white;
+}
+
+.footer h1{
+    text-align: center;
+    padding-top: 45px;
+}
+
+.ftr {
+    width: 80%;
+ margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email input{
+    padding: 17px 140px;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+
+}
+
+.sign{
+    padding: 15px 40px;
+    outline: none;
+border: none;
+border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: #d83e06;
+   font-size: 17px;
+   
+    
+}
+
+
+.f-text p{
+    font-size: 20px;
+}
+
+.icons i{
+    margin: 20px ;
+    font-size: 40px;
+   
+ 
+}
+
+.icons i:hover{
+    color: #d83e06;
+}
+
+.icons{
+text-align: center;
+}
+
+
+@media screen and (min-width : 768px) and (max-width : 1024px){
+
+    .footer{
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        color: white;
+    }
+    
+    .footer h1{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    
+    .ftr {
+        width: 90%;
+     margin: 60px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .email input{
+        margin-top: 20px;
+        padding: 14px 110px;
+        outline: none;
+        border: none;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+    
+    }
+    
+    .sign{
+        padding: 13px 30px;
+        outline: none;
+    border: none;
+    border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+        background-color: #d83e06;
+       font-size: 15px;
+       margin-left: 250px;
+       transform: translateY(-43px);
+       
+        
+    }
+    
+    
+    .f-text p{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+    .icons i{
+        margin: 20px ;
+        font-size: 30px;
+       
+     
+    }
+    
+    .icons{
+    text-align: center;
+    }
+    }
+
+
+    
+@media (max-width:767px){
+
+    .footer{
+        width: 100%;
+        height: 75vh;
+        background-color: black;
+        color: white;
+    }
+    
+    .footer h1{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    
+    .ftr {
+        width: 90%;
+     margin: 60px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .email input{
+        margin-top: 20px;
+        padding: 10px 50px;
+        outline: none;
+        border: none;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+    
+    }
+    
+    .sign{
+        padding: 3px 10px;
+        outline: none;
+    border: none;
+    border-bottom-right-radius: 40px;
+        border-top-right-radius: 40px;
+        background-color: #d83e06;
+       font-size: 13px;
+       margin-left: 200px;
+       transform: translateY(-37px);
+       
+        
+    }
+    
+    
+    .f-text p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    .icons i{
+        margin: 20px ;
+        font-size: 23px;
+       
+     
+    }
+    
+    .icons{
+    text-align: center;
+    }
+    }
+
+
+
+    @media (max-width:320px){
+        body{
+            overflow-x: scroll;
+        }
+
+        .footer{
+            width: 100%;
+            height: 75vh;
+            background-color: black;
+            color: white;
+        }
+        
+        .footer h1{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 22px;
+        }
+        
+        .ftr {
+            width: 90%;
+         margin: 60px auto;
+            display: block;
+            justify-content: space-between;
+        }
+        
+        .email input{
+            margin-top: 20px;
+            padding: 9px 40px;
+            outline: none;
+            border: none;
+            border-bottom-left-radius: 40px;
+            border-top-left-radius: 40px;
+        
+        }
+        
+        .sign{
+            padding: 11px 7px;
+            outline: none;
+        border: none;
+        border-bottom-right-radius: 40px;
+            border-top-right-radius: 40px;
+            background-color: #d83e06;
+           font-size: 11px;
+           margin-left: 170px;
+           transform: translateY(-33px);
+           
+            
+        }
+        
+        
+        .f-text p{
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        
+        .icons i{
+            margin: 16px ;
+            font-size: 23px;
+           
+         
+        }
+        
+        .icons{
+        text-align: center;
+        }
+        }
